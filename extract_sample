@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+
+export USER_DIR="/home/temp_user"
+export BERT_BIN_DIR="$USER_DIR/github-bert/bert"
+export BERT_BASE_DIR="$USER_DIR/corpora/uncased_L-12_H-768_A-12"
+export OUTPUT_DIR="$USER_DIR/github-bert/bert/resources/data"
+export RESOURCE_DIR="$USER_DIR/github-bert/bert/resources"
+
+TMP_FILE="/tmp/input.txt"
+
+BENCHMARK_FILE="$RESOURCE_DIR/benchmarks.txt"
+PRONOUNS_FILE="$RESOURCE_DIR/pronouns.txt"
+JOBS_FILE="$RESOURCE_DIR/jobs.txt"
+
+# job through each benchmark to extract their pronouns.txt and jobs.txt feature vectors
+BENCHMARK="WNLI"
+CHECKPOINT="59"
+
+
+for i in {1..25}
+do
+    PRONOUN_DIR="$OUTPUT_DIR/samples/$BENCHMARK/$BENCHMARK-$i/pronouns"
+    JOB_DIR="$OUTPUT_DIR/samples/$BENCHMARK/$BENCHMARK-$i/jobs"
+
+    MODEL_DIR="/tmp/samples/$BENCHMARK/$BENCHMARK-$i"
+
+    mkdir -p $PRONOUN_DIR
+    mkdir -p $JOB_DIR
+
+    # loop through each pronoun and extract it's feature vector
+    while IFS= read -r PRONOUN
+    do
+      echo "$PRONOUN" > $TMP_FILE
+      python3 $BERT_BIN_DIR/extract_features.py \
+          --input_file=$TMP_FILE \
+          --output_file="$PRONOUN_DIR/$PRONOUN.jsonl" \
+          --vocab_file="$BERT_BASE_DIR/vocab.txt" \
+          --bert_config_file="$BERT_BASE_DIR/bert_config.json" \
+          --init_checkpoint="$MODEL_DIR/model.ckpt-$CHECKPOINT" \
+          --layers=-1,-2,-3,-4 \
+          --max_seq_length=128 \
+          --batch_size=8
+    done < "$PRONOUNS_FILE"
+
+    # loop through each job and extract it's feature vector
+    while IFS= read -r JOB
+    do
+      echo "$JOB" > $TMP_FILE
+      python3 $BERT_BIN_DIR/extract_features.py \
+          --input_file=$TMP_FILE \
+          --output_file="$JOB_DIR/$JOB.jsonl" \
+          --vocab_file="$BERT_BASE_DIR/vocab.txt" \
+          --bert_config_file="$BERT_BASE_DIR/bert_config.json" \
+          --init_checkpoint="$MODEL_DIR/model.ckpt-$CHECKPOINT" \
+          --layers=-1,-2,-3,-4 \
+          --max_seq_length=128 \
+          --batch_size=8
+    done < "$JOBS_FILE"
+done
+
+

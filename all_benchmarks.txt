@@ -1,0 +1,12 @@
+CoLA
+diagnostic
+MNLI
+MRPC
+QNLI
+QQP
+RTE
+SNLI
+SST-2
+STS-B
+WNLI
+toxic

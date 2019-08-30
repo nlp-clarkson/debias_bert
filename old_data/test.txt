@@ -1,0 +1,406 @@
+* Adding protester (1)
+  + protest
+  + ##er
+* Adding bartender (2)
+  + bartender
+* Adding bishop (3)
+  + bishop
+* Adding stock broker (4)
+  + stock
+  + broker
+* Adding adjunct professor (5)
+  + adjunct
+  + professor
+* Adding ballerina (6)
+  + ball
+  + ##erina
+* Adding advocate (7)
+  + advocate
+* Adding acquaintance (8)
+  + acquaintance
+* Adding screenwriter (9)
+  + screenwriter
+* Adding employee (10)
+  + employee
+* Adding boss (11)
+  + boss
+* Adding ranger (12)
+  + ranger
+* Adding scholar (13)
+  + scholar
+* Adding lyricist (14)
+  + lyricist
+* Adding publicist (15)
+  + public
+  + ##ist
+* Adding choreographer (16)
+  + choreographer
+* Adding drummer (17)
+  + drummer
+* Adding chef (18)
+  + chef
+* Adding fighter pilot (19)
+  + fighter
+  + pilot
+* Adding provost (20)
+  + provost
+* Adding director (21)
+  + director
+* Adding councilman (22)
+  + council
+  + ##man
+* Adding sergeant (23)
+  + sergeant
+* Adding plumbing plumber (24)
+  + plumbing
+  + plum
+  + ##ber
+* Adding fireman (25)
+  + fire
+  + ##man
+* Adding professor emeritus (26)
+  + professor
+  + emeritus
+* Adding farmer (27)
+  + farmer
+* Adding pathology pathologist (28)
+  + pathology
+  + path
+  + ##ologist
+* Adding psychologist (29)
+  + psychologist
+* Adding comedian (30)
+  + comedian
+* Adding principal (31)
+  + principal
+* Adding solicitor general (32)
+  + solicitor
+  + general
+* Adding teenager (33)
+  + teenager
+* Adding minister (34)
+  + minister
+* Adding soloist (35)
+  + soloist
+* Adding butler (36)
+  + butler
+* Adding neurology neurologist (37)
+  + ne
+  + ##uro
+  + ##logy
+  Warning: ne already exists in token_dict!
+  + ne
+  Warning: ##uro already exists in token_dict!
+  + ##uro
+  + ##logist
+* Adding patrolman (38)
+  + patrol
+  + ##man
+* Adding comic (39)
+  + comic
+* Adding radiology radiologist (40)
+  + radio
+  + ##logy
+  Warning: radio already exists in token_dict!
+  + radio
+  + ##logist
+* Adding negotiate negotiator (41)
+  + negotiate
+  + ne
+  + ##go
+  + ##tia
+  + ##tor
+* Adding economics professor (42)
+  + economics
+  + professor
+* Adding parliamentarian (43)
+  + parliament
+  + ##arian
+* Adding barber (44)
+  + barber
+* Adding priest (45)
+  + priest
+* Adding saint (46)
+  + saint
+* Adding major leaguer (47)
+  + major
+  + league
+  + ##r
+* Adding chemist (48)
+  + chemist
+* Adding crusader (49)
+  + crusader
+* Adding sheriff deputy (50)
+  + sheriff
+  + deputy
+* Adding boxer (51)
+  + boxer
+* Adding preacher (52)
+  + preacher
+* Adding actress (53)
+  + actress
+* Adding cabbie (54)
+  + cab
+  + ##bie
+* Adding missionary (55)
+  + missionary
+* Adding fashion designer (56)
+  + fashion
+  + designer
+* Adding dentist (57)
+  + dentist
+* Adding dancer (58)
+  + dancer
+* Adding civil servant (59)
+  + civil
+  + servant
+* Adding hooker (60)
+  + hooker
+* Adding epidemiology epidemiologist (61)
+  + ep
+  + ##ide
+  + ##mi
+  + ##ology
+  Warning: ep already exists in token_dict!
+  + ep
+  Warning: ##ide already exists in token_dict!
+  + ##ide
+  Warning: ##mi already exists in token_dict!
+  + ##mi
+  + ##ologist
+* Adding mediate mediator (62)
+  + media
+  + ##te
+  Warning: media already exists in token_dict!
+  + media
+  + ##tor
+* Adding magician (63)
+  + magician
+* Adding housewife (64)
+  + house
+  + ##wife
+* Adding cameraman (65)
+  + camera
+  + ##man
+* Adding pianist (66)
+  + pianist
+* Adding scientist (67)
+  + scientist
+* Adding waitress (68)
+  + waitress
+* Adding broker (69)
+  + broker
+* Adding organist (70)
+  + organist
+* Adding protege (71)
+  + protege
+* Adding evangelist (72)
+  + evangelist
+* Adding author (73)
+  + author
+* Adding disc jockey (74)
+  + disc
+  + jockey
+* Adding drug addict (75)
+  + drug
+  + addict
+* Adding mechanic (76)
+  + mechanic
+* Adding technician (77)
+  + technician
+* Adding deputy (78)
+  + deputy
+* Adding confesses (79)
+  + confesses
+* Adding surveyor (80)
+  + surveyor
+* Adding electrician (81)
+  + electric
+  + ##ian
+* Adding vocalist (82)
+  + vocalist
+* Adding environmentalist (83)
+  + environmental
+  + ##ist
+* Adding nun (84)
+  + nun
+* Adding novelist (85)
+  + novelist
+* Adding lawmaker (86)
+  + law
+  + ##maker
+* Adding firebrand (87)
+  + fire
+  + ##brand
+* Adding illustrator (88)
+  + illustrator
+* Adding freelance writer (89)
+  + freelance
+  + writer
+* Adding barrister (90)
+  + barrister
+* Adding promoter (91)
+  + promoter
+* Adding politician (92)
+  + politician
+* Adding trucker (93)
+  + truck
+  + ##er
+* Adding laborer (94)
+  + labor
+  + ##er
+* Adding philanthropist (95)
+  + philanthropist
+* Adding senator (96)
+  + senator
+* Adding industrialist (97)
+  + industrialist
+* Adding ambassador (98)
+  + ambassador
+* Adding athletic director (99)
+  + athletic
+  + director
+* Adding nanny (100)
+  + nanny
+* Adding lecturer (101)
+  + lecturer
+* Adding pediatrician (102)
+  + pediatric
+  + ##ian
+* Adding finance financier (103)
+  + finance
+  + fin
+  + ##an
+  + ##cier
+* Adding singer songwriter (104)
+  + singer
+  + songwriter
+* Adding naturalist (105)
+  + naturalist
+* Adding astronomer (106)
+  + astronomer
+* Adding landlord (107)
+  + landlord
+* Adding magistrate (108)
+  + magistrate
+* Adding sportswriter (109)
+  + sports
+  + ##writer
+* Adding dermatology dermatologist (110)
+  + der
+  + ##mat
+  + ##ology
+  Warning: der already exists in token_dict!
+  + der
+  Warning: ##mat already exists in token_dict!
+  + ##mat
+  + ##ologist
+* Adding bureaucrat (111)
+  + bureau
+  + ##crat
+* Adding consultant (112)
+  + consultant
+* Adding jeweler (113)
+  + jewel
+  + ##er
+* Adding homemaker (114)
+  + home
+  + ##maker
+* Adding economist (115)
+  + economist
+* Adding journalist (116)
+  + journalist
+* Adding critic (117)
+  + critic
+* Adding physicist (118)
+  + physicist
+* Adding lawyer (119)
+  + lawyer
+* Adding sportsman (120)
+  + sportsman
+* Adding assistant professor (121)
+  + assistant
+  + professor
+* Adding programmer (122)
+  + programmer
+* Adding goalkeeper (123)
+  + goalkeeper
+* Adding maestro (124)
+  + maestro
+* Adding composer (125)
+  + composer
+* Adding interior designer (126)
+  + interior
+  + designer
+* Adding carpenter (127)
+  + carpenter
+* Adding president (128)
+  + president
+* Adding entertainer (129)
+  + entertainer
+* Adding playwright (130)
+  + playwright
+* Adding aide (131)
+  + aide
+* Adding investment banker (132)
+  + investment
+  + banker
+* Adding alter ego (133)
+  + alter
+  + ego
+* Adding lieutenant (134)
+  + lieutenant
+* Adding coach (135)
+  + coach
+* Adding writer (136)
+  + writer
+* Adding commissioner (137)
+  + commissioner
+* Adding actor (138)
+  + actor
+* Adding student (139)
+  + student
+* Adding detective (140)
+  + detective
+* Adding columnist (141)
+  + columnist
+* Adding butcher (142)
+  + butcher
+* Adding correspondent (143)
+  + correspondent
+* Adding curator (144)
+  + curator
+* Adding businesswoman (145)
+  + business
+  + ##woman
+* Adding fisherman (146)
+  + fisherman
+* Adding real estate realtor (147)
+  + real
+  + estate
+  Warning: real already exists in token_dict!
+  + real
+  + ##tor
+* Adding graphic designer (148)
+  + graphic
+  + designer
+* Adding prosecutor (149)
+  + prosecutor
+* Adding under study (150)
+  + under
+  + study
+* Adding pharmacy pharmacist (151)
+  + pharmacy
+  + ph
+  + ##arm
+  + ##ac
+  + ##ist
+* Adding croon crooner (152)
+  + cr
+  + ##oon
+  Warning: cr already exists in token_dict!
+  + cr
+  Warning: ##oon already exists in token_dict!
+  + ##oon
+  + ##er
+* Adding colonel (153)

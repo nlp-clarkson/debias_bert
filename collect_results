@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+export MY_DIR="/home/temp_user"
+export OUTPUT_DIR="$MY_DIR/github-bert/bert/resources/results"
+export RESOURCE_DIR="$MY_DIR/github-bert/bert/resources"
+
+export MODEL_DIR="/tmp"
+
+TMP_FILE="/tmp/input.txt"
+
+BENCHMARK_FILE="$RESOURCE_DIR/all_benchmarks.txt"
+
+# job through each benchmark to extract their pronouns.txt and jobs.txt feature vectors
+while IFS= read -r BENCHMARK
+do
+    cat "$MODEL_DIR/$BENCHMARK/eval_results.txt" > "$OUTPUT_DIR/$BENCHMARK.txt" 
+done < "$BENCHMARK_FILE"
+
+
